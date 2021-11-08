@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/tommypickup/projects/lux/agent.py", line 311, in agent
+    f.write(f"{observation['step']}there is capacity at {city.id}: with capacity{city_capacity_dict[city]}\n")
+AttributeError: 'City' object has no attribute 'id'

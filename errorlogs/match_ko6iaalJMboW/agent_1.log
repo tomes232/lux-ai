@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/home/tommypickup/projects/lux/agent.py", line 315, in agent
+    f.write(f"{observation['step']} city {city.cityid} no longer exists... Being removed from build list\n")
+AttributeError: 'str' object has no attribute 'cityid'
